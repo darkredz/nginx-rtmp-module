@@ -26,6 +26,7 @@ typedef struct {
     ngx_int_t                       live;
     ngx_int_t                       start;
     ngx_int_t                       stop;
+    ngx_int_t                       pass_args;
 
     void                           *tag;     /* usually module reference */
     void                           *data;    /* module-specific data */
