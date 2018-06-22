@@ -54,6 +54,7 @@ struct ngx_rtmp_relay_ctx_s {
     ngx_int_t                       live;
     ngx_int_t                       start;
     ngx_int_t                       stop;
+    ngx_int_t                       pass_args;
 
     ngx_event_t                     push_evt;
     ngx_event_t                    *static_evt;
