@@ -26,7 +26,7 @@ static char * ngx_rtmp_relay_push_pull(ngx_conf_t *cf, ngx_command_t *cmd,
 static ngx_int_t ngx_rtmp_relay_publish(ngx_rtmp_session_t *s,
        ngx_rtmp_publish_t *v);
 static ngx_rtmp_relay_ctx_t * ngx_rtmp_relay_create_connection(
-       ngx_rtmp_conf_ctx_t *cctx, ngx_str_t* name,
+       ngx_rtmp_conf_ctx_t *cctx, ngx_str_t* name, ngx_str_t *args,
        ngx_rtmp_relay_target_t *target);
 
 
